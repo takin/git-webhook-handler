@@ -1,0 +1,26 @@
+{
+  "name": "git-webhook-handler",
+  "version": "0.0.1",
+  "description": "A lightweight NodeJS webapp to handle git server hooks ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takin/git-webhook-handler.git"
+  },
+  "keywords": [
+    "git",
+    "webhook"
+  ],
+  "author": "Syamsul Muttaqin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/takin/git-webhook-handler/issues"
+  },
+  "homepage": "https://github.com/takin/git-webhook-handler#readme",
+  "dependencies": {
+    "winston": "^3.0.0-rc0"
+  }
+}
